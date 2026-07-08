@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Models;
+namespace MariusGelez\IGDBLaravel\Models;
 
 use Illuminate\Support\Str;
 use InvalidArgumentException;
-use MarcReichel\IGDBLaravel\Enums\Image\Size;
+use MariusGelez\IGDBLaravel\Enums\Image\Size;
 
 abstract class Image extends Model
 {

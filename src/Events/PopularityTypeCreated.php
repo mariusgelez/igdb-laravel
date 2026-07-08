@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Events;
+namespace MariusGelez\IGDBLaravel\Events;
 
 use Illuminate\Http\Request;
-use MarcReichel\IGDBLaravel\Models\PopularityType;
+use MariusGelez\IGDBLaravel\Models\PopularityType;
 
 class PopularityTypeCreated extends Event
 {

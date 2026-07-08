@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Events;
+namespace MariusGelez\IGDBLaravel\Events;
 
 use Illuminate\Http\Request;
-use MarcReichel\IGDBLaravel\Models\GameVersionFeature;
+use MariusGelez\IGDBLaravel\Models\GameVersionFeature;
 
 class GameVersionFeatureCreated extends Event
 {

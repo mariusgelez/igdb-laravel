@@ -2,7 +2,7 @@
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $games = Game::search('Fortnite')->get();
 ```

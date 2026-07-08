@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Traits;
+namespace MariusGelez\IGDBLaravel\Traits;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;

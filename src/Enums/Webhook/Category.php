@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Enums\Webhook;
+namespace MariusGelez\IGDBLaravel\Enums\Webhook;
 
 enum Category: int
 {

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Tests;
+namespace MariusGelez\IGDBLaravel\Tests;
 
 use Illuminate\Support\Facades\Http;
 use InvalidArgumentException;
-use MarcReichel\IGDBLaravel\Enums\Webhook\Category;
-use MarcReichel\IGDBLaravel\Exceptions\InvalidWebhookMethodException;
+use MariusGelez\IGDBLaravel\Enums\Webhook\Category;
+use MariusGelez\IGDBLaravel\Exceptions\InvalidWebhookMethodException;
 use Symfony\Component\Console\Command\Command;
 
 /**

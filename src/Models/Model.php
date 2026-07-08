@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Models;
+namespace MariusGelez\IGDBLaravel\Models;
 
 use ArrayAccess;
 use BadMethodCallException;
@@ -15,13 +15,13 @@ use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Str;
-use MarcReichel\IGDBLaravel\ApiHelper;
-use MarcReichel\IGDBLaravel\Builder;
-use MarcReichel\IGDBLaravel\Enums\Webhook\Method;
-use MarcReichel\IGDBLaravel\Exceptions\AuthenticationException;
-use MarcReichel\IGDBLaravel\Exceptions\InvalidParamsException;
-use MarcReichel\IGDBLaravel\Exceptions\InvalidWebhookMethodException;
-use MarcReichel\IGDBLaravel\Exceptions\WebhookSecretMissingException;
+use MariusGelez\IGDBLaravel\ApiHelper;
+use MariusGelez\IGDBLaravel\Builder;
+use MariusGelez\IGDBLaravel\Enums\Webhook\Method;
+use MariusGelez\IGDBLaravel\Exceptions\AuthenticationException;
+use MariusGelez\IGDBLaravel\Exceptions\InvalidParamsException;
+use MariusGelez\IGDBLaravel\Exceptions\InvalidWebhookMethodException;
+use MariusGelez\IGDBLaravel\Exceptions\WebhookSecretMissingException;
 use ReflectionException;
 use RuntimeException;
 

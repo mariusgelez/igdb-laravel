@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Traits;
+namespace MariusGelez\IGDBLaravel\Traits;
 
 use Closure;
 use Illuminate\Support\Collection;
-use MarcReichel\IGDBLaravel\Builder;
-use MarcReichel\IGDBLaravel\Exceptions\InvalidParamsException;
+use MariusGelez\IGDBLaravel\Builder;
+use MariusGelez\IGDBLaravel\Exceptions\InvalidParamsException;
 use ReflectionException;
 
 /**

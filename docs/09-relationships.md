@@ -4,7 +4,7 @@ To extend your result use the `with`-method:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $game = Game::with(['cover', 'artworks'])->get();
 ```
@@ -15,7 +15,7 @@ the relationship as the array-key and the fields as an array:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $game = Game::with(['cover' => ['url', 'image_id']])->get();
 ```

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Events;
+namespace MariusGelez\IGDBLaravel\Events;
 
 use Illuminate\Http\Request;
-use MarcReichel\IGDBLaravel\Models\Platform;
+use MariusGelez\IGDBLaravel\Models\Platform;
 
 class PlatformCreated extends Event
 {

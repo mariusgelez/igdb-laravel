@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Models;
+namespace MariusGelez\IGDBLaravel\Models;
 
 use Carbon\Carbon;
 use Illuminate\Http\Client\PendingRequest;
@@ -10,11 +10,11 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Str;
 use JsonException;
-use MarcReichel\IGDBLaravel\ApiHelper;
-use MarcReichel\IGDBLaravel\Enums\Webhook\Category;
-use MarcReichel\IGDBLaravel\Enums\Webhook\Method;
-use MarcReichel\IGDBLaravel\Exceptions\AuthenticationException;
-use MarcReichel\IGDBLaravel\Exceptions\InvalidWebhookSecretException;
+use MariusGelez\IGDBLaravel\ApiHelper;
+use MariusGelez\IGDBLaravel\Enums\Webhook\Category;
+use MariusGelez\IGDBLaravel\Enums\Webhook\Method;
+use MariusGelez\IGDBLaravel\Exceptions\AuthenticationException;
+use MariusGelez\IGDBLaravel\Exceptions\InvalidWebhookSecretException;
 
 class Webhook
 {
@@ -104,7 +104,7 @@ class Webhook
         }
 
         $className = Str::singular(Str::studly($endpoint));
-        $fullClassName = 'MarcReichel\\IGDBLaravel\\Models\\' . $className;
+        $fullClassName = 'MariusGelez\\IGDBLaravel\\Models\\' . $className;
 
         if (!class_exists($fullClassName)) {
             return $data;
@@ -122,7 +122,7 @@ class Webhook
             return $entity;
         }
 
-        $event = 'MarcReichel\\IGDBLaravel\\Events\\' . $className . ucfirst(strtolower($method)) . 'd';
+        $event = 'MariusGelez\\IGDBLaravel\\Events\\' . $className . ucfirst(strtolower($method)) . 'd';
 
         if (!class_exists($event)) {
             return $entity;

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Console;
+namespace MariusGelez\IGDBLaravel\Console;
 
 use Illuminate\Console\Command;
-use MarcReichel\IGDBLaravel\Models\Webhook;
+use MariusGelez\IGDBLaravel\Models\Webhook;
 
 class DeleteWebhook extends Command
 {

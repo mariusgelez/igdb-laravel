@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Tests;
+namespace MariusGelez\IGDBLaravel\Tests;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
 use InvalidArgumentException;
-use MarcReichel\IGDBLaravel\Enums\Image\Size;
-use MarcReichel\IGDBLaravel\Models\Artwork;
-use MarcReichel\IGDBLaravel\Models\CharacterMugShot;
-use MarcReichel\IGDBLaravel\Models\CompanyLogo;
-use MarcReichel\IGDBLaravel\Models\Cover;
-use MarcReichel\IGDBLaravel\Models\GameEngineLogo;
-use MarcReichel\IGDBLaravel\Models\Image;
-use MarcReichel\IGDBLaravel\Models\PlatformLogo;
-use MarcReichel\IGDBLaravel\Models\Screenshot;
+use MariusGelez\IGDBLaravel\Enums\Image\Size;
+use MariusGelez\IGDBLaravel\Models\Artwork;
+use MariusGelez\IGDBLaravel\Models\CharacterMugShot;
+use MariusGelez\IGDBLaravel\Models\CompanyLogo;
+use MariusGelez\IGDBLaravel\Models\Cover;
+use MariusGelez\IGDBLaravel\Models\GameEngineLogo;
+use MariusGelez\IGDBLaravel\Models\Image;
+use MariusGelez\IGDBLaravel\Models\PlatformLogo;
+use MariusGelez\IGDBLaravel\Models\Screenshot;
 use PHPUnit\Framework\Attributes\DataProvider;
 
 /**

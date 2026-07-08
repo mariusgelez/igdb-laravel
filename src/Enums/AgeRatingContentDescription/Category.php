@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Enums\AgeRatingContentDescription;
+namespace MariusGelez\IGDBLaravel\Enums\AgeRatingContentDescription;
 
 enum Category: int
 {

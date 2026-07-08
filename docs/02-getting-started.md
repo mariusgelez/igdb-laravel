@@ -12,12 +12,12 @@ To get a list of games you simply call something like this:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $games = Game::where('name', 'Fortnite')->get();
 ```
 
-[Here](https://github.com/marcreichel/igdb-laravel/tree/main/src/Models) you can find a list of all available Models.
+[Here](https://github.com/mariusgelez/igdb-laravel/tree/main/src/Models) you can find a list of all available Models.
 
 When you use one of these models the query results will be mapped into the used model automatically.
 
@@ -29,7 +29,7 @@ You can also use the Query Builder (which is used under the hood) directly if yo
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Builder as IGDB;
+use MariusGelez\IGDBLaravel\Builder as IGDB;
 
 $igdb = new IGDB('games'); // 'games' is the endpoint
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Enums\GameVersionFeature;
+namespace MariusGelez\IGDBLaravel\Enums\GameVersionFeature;
 
 enum Category: int
 {

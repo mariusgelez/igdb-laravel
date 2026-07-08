@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Enums\ReleaseDate;
+namespace MariusGelez\IGDBLaravel\Enums\ReleaseDate;
 
 enum Region: int
 {

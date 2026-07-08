@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Tests;
+namespace MariusGelez\IGDBLaravel\Tests;
 
 use Carbon\Carbon;
 use Illuminate\Http\Client\Request;
@@ -11,10 +11,10 @@ use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Http;
 use InvalidArgumentException;
 use JsonException;
-use MarcReichel\IGDBLaravel\Builder;
-use MarcReichel\IGDBLaravel\Exceptions\InvalidParamsException;
-use MarcReichel\IGDBLaravel\Exceptions\MissingEndpointException;
-use MarcReichel\IGDBLaravel\Exceptions\ModelNotFoundException;
+use MariusGelez\IGDBLaravel\Builder;
+use MariusGelez\IGDBLaravel\Exceptions\InvalidParamsException;
+use MariusGelez\IGDBLaravel\Exceptions\MissingEndpointException;
+use MariusGelez\IGDBLaravel\Exceptions\ModelNotFoundException;
 use PHPUnit\Framework\Attributes\DataProvider;
 use ReflectionException;
 use stdClass;

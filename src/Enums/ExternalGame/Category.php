@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Enums\ExternalGame;
+namespace MariusGelez\IGDBLaravel\Enums\ExternalGame;
 
 enum Category: int
 {

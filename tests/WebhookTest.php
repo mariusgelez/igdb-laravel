@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Tests;
+namespace MariusGelez\IGDBLaravel\Tests;
 
 use Illuminate\Http\Client\Request;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Str;
-use MarcReichel\IGDBLaravel\Enums\Webhook\Category;
-use MarcReichel\IGDBLaravel\Enums\Webhook\Method;
-use MarcReichel\IGDBLaravel\Exceptions\InvalidWebhookMethodException;
-use MarcReichel\IGDBLaravel\Exceptions\WebhookSecretMissingException;
-use MarcReichel\IGDBLaravel\Models\Artwork;
-use MarcReichel\IGDBLaravel\Models\Company;
-use MarcReichel\IGDBLaravel\Models\Game;
-use MarcReichel\IGDBLaravel\Models\Webhook;
+use MariusGelez\IGDBLaravel\Enums\Webhook\Category;
+use MariusGelez\IGDBLaravel\Enums\Webhook\Method;
+use MariusGelez\IGDBLaravel\Exceptions\InvalidWebhookMethodException;
+use MariusGelez\IGDBLaravel\Exceptions\WebhookSecretMissingException;
+use MariusGelez\IGDBLaravel\Models\Artwork;
+use MariusGelez\IGDBLaravel\Models\Company;
+use MariusGelez\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Webhook;
 use PHPUnit\Framework\Attributes\DataProvider;
 
 /**
@@ -118,7 +118,7 @@ class WebhookTest extends TestCase
     #[DataProvider('modelsDataProvider')]
     public function testItShouldDispatchCreatedEvent(string $className): void
     {
-        $eventClassString = 'MarcReichel\IGDBLaravel\Events\\' . $className . 'Created';
+        $eventClassString = 'MariusGelez\IGDBLaravel\Events\\' . $className . 'Created';
         $url = $this->prefix . '/' . Str::snake($className) . '/create';
 
         $response = $this->withHeaders([
@@ -134,7 +134,7 @@ class WebhookTest extends TestCase
     #[DataProvider('modelsDataProvider')]
     public function testItShouldDispatchUpdatedEvent(string $className): void
     {
-        $eventClassString = 'MarcReichel\IGDBLaravel\Events\\' . $className . 'Updated';
+        $eventClassString = 'MariusGelez\IGDBLaravel\Events\\' . $className . 'Updated';
         $url = $this->prefix . '/' . Str::snake($className) . '/update';
 
         $response = $this->withHeaders([
@@ -150,7 +150,7 @@ class WebhookTest extends TestCase
     #[DataProvider('modelsDataProvider')]
     public function testItShouldDispatchDeletedEvent(string $className): void
     {
-        $eventClassString = 'MarcReichel\IGDBLaravel\Events\\' . $className . 'Deleted';
+        $eventClassString = 'MariusGelez\IGDBLaravel\Events\\' . $className . 'Deleted';
         $url = $this->prefix . '/' . Str::snake($className) . '/delete';
 
         $response = $this->withHeaders([

@@ -2,33 +2,33 @@
 
 <p align="center">
     This is a Laravel wrapper for version 4 of the <a href="https://api-docs.igdb.com/">IGDB API</a> (Apicalypse)
-    including <a href="https://marcreichel.dev/docs/igdb-laravel/webhooks">webhook handling</a>.
+    including <a href="https://github.com/mariusgelez/igdb-laravel/blob/main/docs/90-webhooks.md">webhook handling</a>.
 </p>
 
 <p align="center">
-    <a href="https://packagist.org/packages/marcreichel/igdb-laravel">
-        <img src="https://img.shields.io/packagist/v/marcreichel/igdb-laravel?style=for-the-badge" alt="Packagist Version">
+    <a href="https://packagist.org/packages/mariusgelez/igdb-laravel">
+        <img src="https://img.shields.io/packagist/v/mariusgelez/igdb-laravel?style=for-the-badge" alt="Packagist Version">
     </a>
-    <a href="https://packagist.org/packages/marcreichel/igdb-laravel">
-        <img src="https://img.shields.io/packagist/dt/marcreichel/igdb-laravel?style=for-the-badge" alt="Packagist Downloads">
+    <a href="https://packagist.org/packages/mariusgelez/igdb-laravel">
+        <img src="https://img.shields.io/packagist/dt/mariusgelez/igdb-laravel?style=for-the-badge" alt="Packagist Downloads">
     </a>
-    <a href="https://github.com/marcreichel/igdb-laravel/actions/workflows/tests.yml">
-        <img src="https://img.shields.io/github/actions/workflow/status/marcreichel/igdb-laravel/tests.yml?event=push&style=for-the-badge&logo=github&label=tests" alt="Tests">
+    <a href="https://github.com/mariusgelez/igdb-laravel/actions/workflows/tests.yml">
+        <img src="https://img.shields.io/github/actions/workflow/status/mariusgelez/igdb-laravel/tests.yml?event=push&style=for-the-badge&logo=github&label=tests" alt="Tests">
     </a>
-    <a href="https://github.com/marcreichel/igdb-laravel/actions/workflows/pint.yml">
-        <img src="https://img.shields.io/github/actions/workflow/status/marcreichel/igdb-laravel/code-style.yml?event=push&style=for-the-badge&logo=github&label=Code-Style" alt="Pint">
+    <a href="https://github.com/mariusgelez/igdb-laravel/actions/workflows/code-style.yml">
+        <img src="https://img.shields.io/github/actions/workflow/status/mariusgelez/igdb-laravel/code-style.yml?event=push&style=for-the-badge&logo=github&label=Code-Style" alt="Pint">
     </a>
-    <a href="https://github.com/marcreichel/igdb-laravel/actions/workflows/code-quality.yml">
-        <img src="https://img.shields.io/github/actions/workflow/status/marcreichel/igdb-laravel/code-quality.yml?event=push&style=for-the-badge&logo=github&label=Code-Quality" alt="PHPStan">
+    <a href="https://github.com/mariusgelez/igdb-laravel/actions/workflows/code-quality.yml">
+        <img src="https://img.shields.io/github/actions/workflow/status/mariusgelez/igdb-laravel/code-quality.yml?event=push&style=for-the-badge&logo=github&label=Code-Quality" alt="PHPStan">
     </a>
-    <a href="https://www.codefactor.io/repository/github/marcreichel/igdb-laravel">
-        <img src="https://img.shields.io/codefactor/grade/github/marcreichel/igdb-laravel?style=for-the-badge&logo=codefactor&label=Codefactor" alt="CodeFactor">
+    <a href="https://www.codefactor.io/repository/github/mariusgelez/igdb-laravel">
+        <img src="https://img.shields.io/codefactor/grade/github/mariusgelez/igdb-laravel?style=for-the-badge&logo=codefactor&label=Codefactor" alt="CodeFactor">
     </a>
-    <a href="https://codecov.io/gh/marcreichel/igdb-laravel">
-        <img src="https://img.shields.io/codecov/c/github/marcreichel/igdb-laravel?token=m6FOB0CyPE&style=for-the-badge&logo=codecov" alt="codecov">
+    <a href="https://codecov.io/gh/mariusgelez/igdb-laravel">
+        <img src="https://img.shields.io/codecov/c/github/mariusgelez/igdb-laravel?style=for-the-badge&logo=codecov" alt="codecov">
     </a>
-    <a href="https://packagist.org/packages/marcreichel/igdb-laravel">
-        <img src="https://img.shields.io/github/license/marcreichel/igdb-laravel?style=for-the-badge" alt="License">
+    <a href="https://packagist.org/packages/mariusgelez/igdb-laravel">
+        <img src="https://img.shields.io/github/license/mariusgelez/igdb-laravel?style=for-the-badge" alt="License">
     </a>
 </p>
 
@@ -39,7 +39,7 @@
 You can install this package via composer using:
 
 ```bash
-composer require marcreichel/igdb-laravel
+composer require mariusgelez/igdb-laravel
 ```
 
 The package will automatically register its service provider.
@@ -94,7 +94,7 @@ return [
 
 ## Documentation
 
-You will find the full documentation on [the dedicated documentation site](https://marcreichel.dev/docs/igdb-laravel).
+You will find the full documentation on [the dedicated documentation site](https://github.com/mariusgelez/igdb-laravel/tree/main/docs).
 
 ## Testing
 

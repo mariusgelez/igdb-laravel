@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Events;
+namespace MariusGelez\IGDBLaravel\Events;
 
 use Illuminate\Http\Request;
-use MarcReichel\IGDBLaravel\Models\PlatformVersionCompany;
+use MariusGelez\IGDBLaravel\Models\PlatformVersionCompany;
 
 class PlatformVersionCompanyCreated extends Event
 {

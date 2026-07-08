@@ -6,7 +6,7 @@ To finally get results for the query, simply call `get`:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $games = Game::get();
 ```
@@ -18,7 +18,7 @@ just call the `all`-Method directly on your model:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $games = Game::all();
 ```
@@ -29,7 +29,7 @@ If you only want one result call the `first`-method after your query:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $game = Game::first();
 ```
@@ -41,7 +41,7 @@ with the identifier as a parameter:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $game = Game::find(1905);
 ```
@@ -50,5 +50,5 @@ $game = Game::find(1905);
 
 `find` returns `null` if no result were found. If you want to throw an Exception
 instead use `findOrFail`. This will throw an
-`MarcReichel\IGDBLaravel\Exceptions\ModelNotFoundException` if no result were
+`MariusGelez\IGDBLaravel\Exceptions\ModelNotFoundException` if no result were
 found.

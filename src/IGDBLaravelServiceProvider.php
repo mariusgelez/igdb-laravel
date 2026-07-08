@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel;
+namespace MariusGelez\IGDBLaravel;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use MarcReichel\IGDBLaravel\Console\CreateWebhook;
-use MarcReichel\IGDBLaravel\Console\DeleteWebhook;
-use MarcReichel\IGDBLaravel\Console\ListWebhooks;
-use MarcReichel\IGDBLaravel\Console\PublishCommand;
-use MarcReichel\IGDBLaravel\Console\ReactivateWebhook;
+use MariusGelez\IGDBLaravel\Console\CreateWebhook;
+use MariusGelez\IGDBLaravel\Console\DeleteWebhook;
+use MariusGelez\IGDBLaravel\Console\ListWebhooks;
+use MariusGelez\IGDBLaravel\Console\PublishCommand;
+use MariusGelez\IGDBLaravel\Console\ReactivateWebhook;
 
 class IGDBLaravelServiceProvider extends ServiceProvider
 {

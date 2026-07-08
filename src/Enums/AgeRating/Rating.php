@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Enums\AgeRating;
+namespace MariusGelez\IGDBLaravel\Enums\AgeRating;
 
 enum Rating: int
 {

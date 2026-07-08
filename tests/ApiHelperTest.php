@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Tests;
+namespace MariusGelez\IGDBLaravel\Tests;
 
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
-use MarcReichel\IGDBLaravel\ApiHelper;
-use MarcReichel\IGDBLaravel\Exceptions\AuthenticationException;
+use MariusGelez\IGDBLaravel\ApiHelper;
+use MariusGelez\IGDBLaravel\Exceptions\AuthenticationException;
 use Symfony\Component\HttpFoundation\Response;
 
 /**

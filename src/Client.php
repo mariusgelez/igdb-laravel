@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel;
+namespace MariusGelez\IGDBLaravel;
 
 use Illuminate\Http\Client\RequestException;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Str;
-use MarcReichel\IGDBLaravel\Exceptions\AuthenticationException;
+use MariusGelez\IGDBLaravel\Exceptions\AuthenticationException;
 
 /**
  * @internal

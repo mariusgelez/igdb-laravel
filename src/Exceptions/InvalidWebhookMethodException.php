@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Exceptions;
+namespace MariusGelez\IGDBLaravel\Exceptions;
 
 use Exception;
 

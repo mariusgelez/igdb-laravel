@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Tests;
+namespace MariusGelez\IGDBLaravel\Tests;
 
 use BadMethodCallException;
 use Illuminate\Http\Client\Request;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
-use MarcReichel\IGDBLaravel\Exceptions\InvalidParamsException;
-use MarcReichel\IGDBLaravel\Exceptions\ModelNotFoundException;
-use MarcReichel\IGDBLaravel\Models\Game;
-use MarcReichel\IGDBLaravel\Models\Model;
+use MariusGelez\IGDBLaravel\Exceptions\InvalidParamsException;
+use MariusGelez\IGDBLaravel\Exceptions\ModelNotFoundException;
+use MariusGelez\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Model;
 use PHPUnit\Framework\Attributes\DataProvider;
 
 /**
@@ -429,7 +429,7 @@ class ModelTest extends TestCase
     public function testItShouldNotHaveInvalidCasts(string $className): void
     {
         /** @var class-string<Model> $fqcn */
-        $fqcn = 'MarcReichel\IGDBLaravel\Models\\' . $className;
+        $fqcn = 'MariusGelez\IGDBLaravel\Models\\' . $className;
 
         $this->assertTrue(class_exists($fqcn));
         $this->assertInstanceOf($fqcn, new $fqcn());

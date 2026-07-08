@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Console;
+namespace MariusGelez\IGDBLaravel\Console;
 
 use Exception;
 use Illuminate\Console\Command;
 use InvalidArgumentException;
-use MarcReichel\IGDBLaravel\Enums\Webhook\Method;
-use MarcReichel\IGDBLaravel\Exceptions\InvalidWebhookMethodException;
-use MarcReichel\IGDBLaravel\Models\Model;
+use MariusGelez\IGDBLaravel\Enums\Webhook\Method;
+use MariusGelez\IGDBLaravel\Exceptions\InvalidWebhookMethodException;
+use MariusGelez\IGDBLaravel\Models\Model;
 
 class CreateWebhook extends Command
 {
@@ -35,7 +35,7 @@ class CreateWebhook extends Command
             );
         }
 
-        $namespace = 'MarcReichel\IGDBLaravel\Models\\';
+        $namespace = 'MariusGelez\IGDBLaravel\Models\\';
         $fullQualifiedName = $namespace . $model;
 
         if (!class_exists($fullQualifiedName)) {

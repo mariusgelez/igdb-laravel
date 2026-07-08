@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Traits;
+namespace MariusGelez\IGDBLaravel\Traits;
 
 use Carbon\Carbon;
 use DateTimeInterface;
 use JsonException;
-use MarcReichel\IGDBLaravel\Exceptions\InvalidParamsException;
+use MariusGelez\IGDBLaravel\Exceptions\InvalidParamsException;
 use ReflectionException;
 
 /**

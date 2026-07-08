@@ -31,8 +31,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Marc Reichel",
-            "email": "mail@marcreichel.de"
+            "name": "Marius Gelez"
         }
     ],
     "scripts": {
@@ -54,18 +53,18 @@
     },
     "autoload": {
         "psr-4": {
-            "MarcReichel\\IGDBLaravel\\": "src"
+            "MariusGelez\\IGDBLaravel\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MarcReichel\\IGDBLaravel\\Tests\\": "tests"
+            "MariusGelez\\IGDBLaravel\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "MarcReichel\\IGDBLaravel\\IGDBLaravelServiceProvider"
+                "MariusGelez\\IGDBLaravel\\IGDBLaravelServiceProvider"
             ]
         }
     },

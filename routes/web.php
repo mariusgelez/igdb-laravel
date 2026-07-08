@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use MarcReichel\IGDBLaravel\Models\Webhook;
+use MariusGelez\IGDBLaravel\Models\Webhook;
 
 /**
  * @deprecated

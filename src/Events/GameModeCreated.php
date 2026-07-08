@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Events;
+namespace MariusGelez\IGDBLaravel\Events;
 
 use Illuminate\Http\Request;
-use MarcReichel\IGDBLaravel\Models\GameMode;
+use MariusGelez\IGDBLaravel\Models\GameMode;
 
 class GameModeCreated extends Event
 {

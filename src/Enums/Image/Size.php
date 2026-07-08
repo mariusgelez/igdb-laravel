@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Enums\Image;
+namespace MariusGelez\IGDBLaravel\Enums\Image;
 
 enum Size: string
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Enums\Website;
+namespace MariusGelez\IGDBLaravel\Enums\Website;
 
 enum Category: int
 {

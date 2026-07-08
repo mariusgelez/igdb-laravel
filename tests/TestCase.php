@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Tests;
+namespace MariusGelez\IGDBLaravel\Tests;
 
 use GuzzleHttp\Promise\PromiseInterface;
 use Illuminate\Http\Client\Request;
@@ -10,8 +10,8 @@ use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Str;
-use MarcReichel\IGDBLaravel\IGDBLaravelServiceProvider;
-use MarcReichel\IGDBLaravel\Models\Webhook;
+use MariusGelez\IGDBLaravel\IGDBLaravelServiceProvider;
+use MariusGelez\IGDBLaravel\Models\Webhook;
 use Orchestra\Testbench\TestCase as Orchestra;
 use ReflectionClass;
 
@@ -97,7 +97,7 @@ class TestCase extends Orchestra
         }
 
         foreach ($files as $file) {
-            $classString = 'MarcReichel\IGDBLaravel\Models\\' . basename($file, '.php');
+            $classString = 'MariusGelez\IGDBLaravel\Models\\' . basename($file, '.php');
             if (!class_exists($classString)) {
                 continue;
             }

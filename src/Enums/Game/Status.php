@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Enums\Game;
+namespace MariusGelez\IGDBLaravel\Enums\Game;
 
 enum Status: int
 {

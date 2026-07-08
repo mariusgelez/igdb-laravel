@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Enums\Popularity;
+namespace MariusGelez\IGDBLaravel\Enums\Popularity;
 
 enum Source: int
 {

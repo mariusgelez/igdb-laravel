@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Console;
+namespace MariusGelez\IGDBLaravel\Console;
 
 use Illuminate\Console\Command;
-use MarcReichel\IGDBLaravel\Exceptions\AuthenticationException;
-use MarcReichel\IGDBLaravel\Exceptions\WebhookSecretMissingException;
-use MarcReichel\IGDBLaravel\Models\Model;
-use MarcReichel\IGDBLaravel\Models\Webhook;
+use MariusGelez\IGDBLaravel\Exceptions\AuthenticationException;
+use MariusGelez\IGDBLaravel\Exceptions\WebhookSecretMissingException;
+use MariusGelez\IGDBLaravel\Models\Model;
+use MariusGelez\IGDBLaravel\Models\Webhook;
 
 class ReactivateWebhook extends Command
 {
@@ -42,7 +42,7 @@ class ReactivateWebhook extends Command
         $model = $webhook->getModel();
         $method = $webhook->getMethod();
 
-        $fullQualifiedName = 'MarcReichel\\IGDBLaravel\\Models\\' . $model;
+        $fullQualifiedName = 'MariusGelez\\IGDBLaravel\\Models\\' . $model;
 
         if (!class_exists($fullQualifiedName)) {
             $this->error('Model not found.');

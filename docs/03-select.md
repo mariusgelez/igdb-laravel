@@ -6,7 +6,7 @@ the Apicalypse API)
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $games = Game::select(['*'])->get();
 

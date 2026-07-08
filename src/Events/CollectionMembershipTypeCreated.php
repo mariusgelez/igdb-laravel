@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Events;
+namespace MariusGelez\IGDBLaravel\Events;
 
 use Illuminate\Http\Request;
-use MarcReichel\IGDBLaravel\Models\CollectionMembershipType;
+use MariusGelez\IGDBLaravel\Models\CollectionMembershipType;
 
 class CollectionMembershipTypeCreated extends Event
 {

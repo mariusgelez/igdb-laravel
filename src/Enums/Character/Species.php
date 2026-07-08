@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Enums\Character;
+namespace MariusGelez\IGDBLaravel\Enums\Character;
 
 enum Species: int
 {

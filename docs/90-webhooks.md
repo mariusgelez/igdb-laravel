@@ -71,8 +71,8 @@ For this we create a webhook like so (for example inside a controller):
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Enums\Webhook\Method;
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Enums\Webhook\Method;
+use MariusGelez\IGDBLaravel\Models\Game;
 use Illuminate\Routing\Controller;
 
 class ExampleController extends Controller
@@ -93,7 +93,7 @@ method of our `app/providers/EventServiceProvider.php`:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Events\GameCreated;
+use MariusGelez\IGDBLaravel\Events\GameCreated;
 use Illuminate\Support\Facades\Event;
 
 public function boot()
@@ -104,7 +104,7 @@ public function boot()
 }
 ```
 
-[Here](https://github.com/marcreichel/igdb-laravel/tree/main/src/Events) you can find a list of all available events.
+[Here](https://github.com/mariusgelez/igdb-laravel/tree/main/src/Events) you can find a list of all available events.
 
 Further information on how to set up event listeners can be found on
 the [official docs](https://laravel.com/docs/events).

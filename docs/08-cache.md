@@ -5,7 +5,7 @@ example turn off caching for a query:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $games = Game::cache(0)->get();
 ```

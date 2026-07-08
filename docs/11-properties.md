@@ -6,7 +6,7 @@ If you used the Model-based approach you can simply get a property:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $game = Game::find(1905);
 
@@ -19,7 +19,7 @@ If you want to access a property which does not exist `null` is returned:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $game = Game::find(1905);
 

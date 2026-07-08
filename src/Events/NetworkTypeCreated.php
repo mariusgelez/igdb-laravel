@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Events;
+namespace MariusGelez\IGDBLaravel\Events;
 
 use Illuminate\Http\Request;
-use MarcReichel\IGDBLaravel\Models\NetworkType;
+use MariusGelez\IGDBLaravel\Models\NetworkType;
 
 class NetworkTypeCreated extends Event
 {

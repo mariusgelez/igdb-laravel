@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Enums\Company;
+namespace MariusGelez\IGDBLaravel\Enums\Company;
 
 enum StartDateCategory: int
 {

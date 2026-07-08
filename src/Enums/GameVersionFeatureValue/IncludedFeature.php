@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Enums\GameVersionFeatureValue;
+namespace MariusGelez\IGDBLaravel\Enums\GameVersionFeatureValue;
 
 enum IncludedFeature: int
 {

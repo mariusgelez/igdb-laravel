@@ -20,8 +20,8 @@ This is supported for:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Enums\Image\Size;
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Enums\Image\Size;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $game = Game::where('name', 'Fortnite')
     ->with(['cover'])
@@ -33,12 +33,12 @@ $game->cover->getUrl();
 ### Other sizes
 
 As the first parameter the method receives your desired image size. Simply use the available enum values
-of the `MarcReichel\IGDBLaravel\Enums\Image\Size` enum.
+of the `MariusGelez\IGDBLaravel\Enums\Image\Size` enum.
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Enums\Image\Size;
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Enums\Image\Size;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $game = Game::where('name', 'Fortnite')
     ->with(['cover'])
@@ -53,8 +53,8 @@ If you want to get retina images simply set the second parameter to `true`.
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Enums\Image\Size;
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Enums\Image\Size;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $game = Game::where('name', 'Fortnite')
     ->with(['cover'])

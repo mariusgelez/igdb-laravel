@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Events;
+namespace MariusGelez\IGDBLaravel\Events;
 
 use Illuminate\Http\Request;
-use MarcReichel\IGDBLaravel\Models\GameEngineLogo;
+use MariusGelez\IGDBLaravel\Models\GameEngineLogo;
 
 class GameEngineLogoCreated extends Event
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Models;
+namespace MariusGelez\IGDBLaravel\Models;
 
 class Region extends Model
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Console;
+namespace MariusGelez\IGDBLaravel\Console;
 
 use Illuminate\Console\Command;
 

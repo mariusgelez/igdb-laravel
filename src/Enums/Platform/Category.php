@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MarcReichel\IGDBLaravel\Enums\Platform;
+namespace MariusGelez\IGDBLaravel\Enums\Platform;
 
 enum Category: int
 {

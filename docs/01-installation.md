@@ -11,7 +11,7 @@ You can install this package via composer using:
 
 ```bash
 // torchlight! {"lineNumbers": false}
-composer require marcreichel/igdb-laravel
+composer require mariusgelez/igdb-laravel
 ```
 
 The package will automatically register its service provider.

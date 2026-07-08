@@ -10,7 +10,7 @@ updates:
     schedule:
       interval: "daily"
     assignees:
-      - "marcreichel"
+      - "mariusgelez"
     commit-message:
       prefix: "⬆️"
       prefix_development: "⬆️"

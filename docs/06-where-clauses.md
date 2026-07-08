@@ -4,7 +4,7 @@
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $games = Game::where('first_release_date', '>=', now()->subMonth())
     ->get();
@@ -17,7 +17,7 @@ second argument to the `where` method:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $games = Game::where('name', 'Fortnite')->get();
 
@@ -33,7 +33,7 @@ arguments as the where method:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $games = Game::where('name', 'Fortnite')
              ->orWhere('name', 'Borderlands 2')
@@ -48,7 +48,7 @@ The `whereBetween` method verifies that a fields's value is between two values:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $games = Game::whereBetween('first_release_date', now()->subYear(), now())
              ->get();
@@ -63,7 +63,7 @@ values:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $games = Game::whereNotBetween('first_release_date', now()->subYear(), now())
              ->get();
@@ -78,7 +78,7 @@ given array:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $games = Game::whereIn('category', [0,4])->get();
 ```
@@ -90,7 +90,7 @@ contained in the given array:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $games = Game::whereNotIn('category', [0,4])->get();
 ```
@@ -105,7 +105,7 @@ The `whereNull` method verifies that the value of the given field is `NULL`:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $games = Game::whereNull('first_release_date')->get();
 ```
@@ -116,7 +116,7 @@ The `whereNotNull` method verifies that the field's value is **not** `NULL`:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $games = Game::whereNotNull('first_release_date')->get();
 ```
@@ -127,7 +127,7 @@ The `whereDate` method may be used to compare a field's value against a date:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $games = Game::whereDate('first_release_date', '2019-01-01')
              ->get();
@@ -140,7 +140,7 @@ year:
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $games = Game::whereYear('first_release_date', 2019)
              ->get();
@@ -155,7 +155,7 @@ do the exact same thing.
 
 ```php
 // torchlight! {"lineNumbers": false}
-use MarcReichel\IGDBLaravel\Models\Game;
+use MariusGelez\IGDBLaravel\Models\Game;
 
 $games = Game::where('name', 'Fortnite')
     ->orWhere(function($query) {
